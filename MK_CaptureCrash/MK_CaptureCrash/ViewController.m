@@ -20,7 +20,7 @@
     [self CAGradientLayer];
 }
 - (IBAction)handleTapButton:(UIButton *)sender {
-    //常见异常1---不存在方法引用
+    //常见异常1---不存在方法引用aaaaa
     
         [self performSelector:@selector(thisMthodDoesNotExist) withObject:nil];
     
